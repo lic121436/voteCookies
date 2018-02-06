@@ -1,0 +1,108 @@
+@charset "UTF-8";
+@media only screen and (max-width: 400px) {
+  /*-----------投票页面 头部----------*/
+  .header-title .col-cell a {
+    font-size: 14px; }
+
+  .vote-num {
+    width: 100%; }
+
+  /*-----------投票页面 投票列表----------*/
+  .vote-box .vote-title {
+    font-size: 16px;
+    line-height: 32px; }
+
+  /*---------投票排行榜--------*/
+  .vote-ranking .ranking-title .text-gradient {
+    font-size: 20px;
+    line-height: 38px; } }
+@media only screen and (min-width: 414px) {
+  /*-----------口号----------*/
+  .index-slogan {
+    font-size: 20px; }
+
+  /*----------星风采----------*/
+  .past-box .past-list a.btn {
+    font-size: 24px; }
+
+  /*-----投票个人详情-----*/
+  .vote-details .company {
+    font-size: 16px;
+    line-height: 20px; }
+
+  .details-waper .details-title .top-text {
+    font-size: 24px; }
+  .details-waper .details-title .text-gradient {
+    font-size: 38px; }
+  .details-waper .details-box .list-title .title {
+    font-size: 30px; }
+  .details-waper .details-box .list-box ul li ol li {
+    font-size: 16px; } }
+@media only screen and (min-width: 568px) {
+  /*-----------口号----------*/
+  .index-slogan {
+    font-size: 30px; }
+
+  /*----------星风采----------*/
+  .past-box .past-list a.btn {
+    font-size: 30px; }
+
+  /*-----------投票时间，规则----------*/
+  .index-box {
+    background-size: contain; }
+    .index-box-title span.title {
+      font-size: 20px; }
+    .index-box .activity-time {
+      font-size: 16px;
+      line-height: 24px; }
+    .index-box ul li {
+      font-size: 16px;
+      line-height: 24px; }
+
+  /*-----------投票页面 投票列表----------*/
+  /*-----投票个人详情-----*/
+  .vote-details .company {
+    font-size: 20px;
+    line-height: 30px; }
+
+  .details-box .list-box ul li ol li {
+    font-size: 20px; } }
+@media (min-width: 768px) {
+  .jr-body .zbdy {
+    padding: 0 16.93vw 0 18.23vw;
+    font-size: 16px; }
+    .jr-body .zbdy ul li .zbdy-title {
+      width: 90px; }
+    .jr-body .zbdy ul li .zbdy-content {
+      width: calc(100% - 90px); }
+
+  /*----------星风采----------*/
+  .past-box .past-list a.btn {
+    font-size: 34px;
+    -o-border-radius: 34px;
+    border-radius: 34px; }
+
+  .form-horizontal .control-label {
+    padding-top: 0; }
+
+  .details-waper .details-title .top-text {
+    font-size: 30px; }
+  .details-waper .details-title .text-gradient {
+    font-size: 42px; }
+  .details-waper .details-box .list-title .title {
+    font-size: 40px; }
+  .details-waper .details-box .list-box ul li ol li {
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 30px; }
+
+  /*-----投票个人详情-----*/
+  .vote-details .personal-header ul li .left {
+    width: 70px; }
+  .vote-details .personal-header ul li .right {
+    width: calc(100% - 70px); }
+
+  .vote-list ul li .picture {
+    height: 315px; } }
+
+/*# sourceMappingURL=layout.css.map */

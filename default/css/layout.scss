@@ -1,0 +1,339 @@
+@charset "UTF-8";
+@mixin border-radius($radius) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-o-border-radius: $radius;
+	-ms-border-radius: $radius;
+	border-radius: $radius;
+}
+$font12:12px;
+$font14:14px;
+$font16:16px;
+$font18:18px;
+$font20:20px;
+$font24:24px;
+$font30:30px;
+//@media  (min-width: 320px) {
+//	// 投票列表照片裁切
+//	.vote-list {
+//		ul li {
+//			.picture {
+//				height: 125px;
+//			}
+//		}
+//	}
+//}
+//
+//@media  (min-width: 360px) {
+//	/*----------星风采----------*/
+//	.past-box {
+//		//星风采按钮
+//		.past-list {
+//			a {
+//				&.btn {
+//					font-size: $font18;
+//				}
+//			}
+//		}
+//	}
+//	// 投票列表照片裁切
+//	.vote-list {
+//		ul li {
+//			.picture {
+//				height: 142px;
+//			}
+//		}
+//	}
+//	
+//	/*-----投票个人详情-----*/
+//	.vote-details {
+//		.personal-header {
+//			.btn {
+//				width: 60px;
+//				font-size: $font14;
+//			}
+//		}
+//		//工作、推荐单位
+//		.company {
+//			font-size: $font14;
+//			line-height: $font16;
+//		}
+//	}
+//	//投票详情页面列表 
+//	.details-box {
+//		//投票详情页面列表 列表框
+//		.list-box {
+//			ul li {
+//				ol li {
+//					margin-bottom: 5px;
+//					font-size: $font14;
+//					line-height: $font18;
+//				}
+//			}
+//		}
+//	}
+//}
+//
+//@media  (min-width: 375px) {
+//	// 投票列表照片裁切
+//	.vote-list {
+//		ul li {
+//			.picture {
+//				height: 148px;
+//			}
+//		}
+//	}
+//}
+@media only screen and (max-width: 400px) {
+	/*-----------投票页面 头部----------*/
+	.header-title {
+		.col-cell {
+			a {
+				font-size: $font14;
+			}
+		}
+	}
+	.vote-num {
+		width: 100%;
+	}
+	/*-----------投票页面 投票列表----------*/
+	.vote-box {
+		.vote-title {
+			font-size: $font16;
+			line-height: 32px;
+		}
+	}
+	/*---------投票排行榜--------*/
+	.vote-ranking {
+		.ranking-title {
+			.text-gradient {
+				font-size: $font20;
+				line-height: 38px;
+			}
+		}
+	}
+}
+
+@media only screen and (min-width: 414px) {
+	/*-----------口号----------*/
+	.index-slogan {
+		font-size: $font20;
+	}
+	/*----------星风采----------*/
+	.past-box {
+		//星风采按钮
+		.past-list {
+			a {
+				&.btn {
+					font-size: $font24;
+				}
+			}
+		}
+	}
+	/*-----投票个人详情-----*/
+	.vote-details {
+
+		//工作、推荐单位
+		.company {
+			font-size: $font16;
+			line-height: $font20;
+		}
+	}
+	//投票详情页面 
+	.details-waper {
+		//头部标题 
+		.details-title {
+			.top-text {
+				font-size: $font24;
+			}
+			.text-gradient {
+				font-size: 38px;
+			}
+		}
+		//投票详情页面列表 
+		.details-box {
+			//投票详情页面列表 头部
+			.list-title {
+				.title {
+					font-size: 30px;
+				}
+			}
+			//投票详情页面列表 列表框
+			.list-box {
+				ul li {
+					ol li {
+						font-size: $font16;
+					}
+				}
+			}
+		}
+	}
+}
+//@media  (min-width: 412px) {
+//	// 投票列表照片裁切
+//	.vote-list {
+//		ul li {
+//			.picture {
+//				height: 164px;
+//			}
+//		}
+//	}
+//}
+//@media  (min-width: 414px) {
+//	// 投票列表照片裁切
+//	.vote-list {
+//		ul li {
+//			.picture {
+//				height: 165px;
+//			}
+//		}
+//	}
+//}
+	
+@media only screen and (min-width: 568px) {
+	/*-----------口号----------*/
+	.index-slogan {
+		font-size: $font30;
+	}
+	/*----------星风采----------*/
+	.past-box {
+		//星风采按钮
+		.past-list {
+			a {
+				&.btn {
+					font-size: $font30;
+				}
+			}
+		}
+	}
+	/*-----------投票时间，规则----------*/
+	.index-box {
+		background-size: contain;
+		&-title {
+			span {
+				&.title {
+					font-size: $font20;
+				}
+			}
+		}
+		.activity-time {
+			font-size: $font16;
+			line-height: $font24;
+		}
+		ul li {
+			font-size: $font16;
+			line-height: $font24;
+		}
+	}
+	/*-----------投票页面 投票列表----------*/
+	/*-----投票个人详情-----*/
+	.vote-details {
+		//工作、推荐单位
+		.company {
+			font-size: $font20;
+			line-height: $font30;
+		}
+	}
+	//投票详情页面列表 
+	.details-box {
+		//投票详情页面列表 列表框
+		.list-box {
+			ul li {
+				ol li {
+					font-size: $font20;
+				}
+			}
+		}
+	}
+}
+@media (min-width: 768px) {
+	//  投票页面   8月金融系统 2017-08-10
+	.jr-body {
+		.zbdy {
+			padding: 0 16.93vw 0 18.23vw;
+			font-size: 16px;
+			ul li{
+				.zbdy-title {
+					width: 90px;
+				}
+				.zbdy-content {
+					width: -webkit-calc(100% - 90px);
+					width: calc(100% - 90px);
+				}
+			}
+		}
+	}
+	
+	/*----------星风采----------*/
+	.past-box {
+		//星风采按钮
+		.past-list {
+			a {
+				&.btn {
+					font-size: 34px;
+					@include border-radius(34px);
+				}
+			}
+		}
+	}
+	.form-horizontal .control-label {
+		padding-top: 0;
+	}
+	//投票详情页面 
+	.details-waper {
+		//头部标题 
+		.details-title {
+			.top-text {
+				font-size: $font30;
+			}
+			.text-gradient {
+				font-size: 42px;
+			}
+		}
+		//投票详情页面列表 
+		.details-box {
+			//投票详情页面列表 头部
+			.list-title {
+				.title {
+					font-size: 40px;
+				}
+			}
+			//投票详情页面列表 列表框
+			.list-box {
+				ul li {
+					ol li {
+						margin-bottom: 20px;
+						font-size: $font24;
+						line-height: $font30;
+					}
+				}
+			}
+		}
+	}
+	/*-----投票个人详情-----*/
+	.vote-details {
+		//个人详情头部
+		.personal-header {
+			ul {
+				li {
+					.left {
+						width: 70px;
+					}
+					.right {
+						width: -webkit-calc(100% - 70px);
+						width: calc(100% - 70px);
+					}
+				}
+			}
+		}
+	}
+	
+	// 投票列表照片裁切
+	.vote-list {
+		ul li {
+			.picture {
+				height: 315px;
+			}
+		}
+	}
+}

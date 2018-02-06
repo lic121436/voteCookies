@@ -1,0 +1,1570 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="renderer" content="webkit">
+    <meta name="format-detection" content="telephone=no" />
+    <title>投票页面</title>
+    <meta name="description" content="">
+    <meta name="csrf-token" content="mNqnpTlj28tmyMUIBWzDwHZTuqXXfyc9NuzTu58V" />
+    <!--[if lte IE 9]><script>  alert('本站不支持当前IE版本，请更换浏览器！'); </script><![endif]-->
+    <link media="all" type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link media="all" type="text/css" rel="stylesheet" href="default/css/main.css">
+    <link media="all" type="text/css" rel="stylesheet" href="default/css/layout.css">
+    <link type="text/css" rel="stylesheet" href="layer/skin/layer.css">
+    <style type="text/css">
+        .layui-layer-hide {
+            display: none;
+        }
+
+        .prompt-qrcode {
+            font-size: 18px;
+            color: red;
+            text-indent: 2em;
+        }
+    </style>
+</head>
+
+<body class="sd-body">
+    <!--头部-->
+    <header class="container">
+
+        <div id="logo">
+            <div class=" logo">
+                <img src="images/daode_vote_top.jpg" alt="">
+            </div>
+            <!--logo END-->
+        </div>
+    </header>
+    <!--头部 END-->
+    <!--投票项目，数量-->
+    <div id="vote_num">
+        <div class="wsj-vote-position daode-position">
+            <!--投票名称-->
+            <div class="header-title">
+                <div class="col-cell">
+                    <a href="#vote1">
+                        <canvas class="title" data-content="助人为乐"></canvas>
+                    </a>
+                </div>
+                <div class="col-cell">
+                    <a href="#vote2">
+                        <canvas class="title" data-content="见义勇为"></canvas>
+                    </a>
+                </div>
+                <div class="col-cell">
+                    <a href="#vote3">
+                        <canvas class="title" data-content="诚实守信"></canvas>
+                    </a>
+                </div>
+                <div class="col-cell">
+                    <a href="#vote4">
+                        <canvas class="title" data-content="敬业奉献"></canvas>
+                    </a>
+                </div>
+                <div class="col-cell">
+                    <a href="#vote5">
+                        <canvas class="title" data-content="孝老爱亲"></canvas>
+                    </a>
+                </div>
+            </div>
+            <!--投票票数-->
+            <div class="vote-num" id="vote-num">
+                <div class="col-cell" id="num1">已选
+                    <span>0</span>票</div>
+                <div class="col-cell" id="num2">已选
+                    <span>0</span>票</div>
+                <div class="col-cell" id="num3">已选
+                    <span>0</span>票</div>
+                <div class="col-cell" id="num4">已选
+                    <span>0</span>票</div>
+                <div class="col-cell" id="num5">已选
+                    <span>0</span>票</div>
+            </div>
+        </div>
+    </div>
+    <!--投票项目，数量 END-->
+
+    <!--投票列表-->
+    <div class="vote-box">
+        <!--助人为乐候选人-->
+        <div class="vote-title">
+            <canvas class="canvas" data-title="助人为乐候选人"></canvas>
+        </div>
+        <div class="vote-list wsj-vote-list clearfix" id="vote1">
+            <ul class="clearfix">
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/148.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="148">
+                            <li>编号:201</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>陈伟琳</span>
+                            </li>
+                            <li>漳浦湖西乡后溪村卫生所</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="148">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/149.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="149">
+                            <li>编号:202</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>陈亚任</span>
+                            </li>
+                            <li>平和县芦溪镇漳汀村卫生所</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="149">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/151.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="151">
+                            <li>编号:203</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>卢民主</span>
+                            </li>
+                            <li>平和县霞寨镇高寨村</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="151">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/152.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="152">
+                            <li>编号:204</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>张江林</span>
+                            </li>
+                            <li>龙文区朝阳镇漳滨村</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="152">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/153.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="153">
+                            <li>编号:205</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>沈松斌</span>
+                            </li>
+                            <li>诏安县梅岭镇赤石湾村卫生所</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="153">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/154.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="154">
+                            <li>编号:206</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>张学周</span>
+                            </li>
+                            <li>诏安县官陂镇下官村卫生所</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="154">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/155.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="155">
+                            <li>编号:207</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>陈雷毅</span>
+                            </li>
+                            <li>东山县陈城镇陈城村卫生室</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="155">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/156.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="156">
+                            <li>编号:208</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>郑桂荣</span>
+                            </li>
+                            <li>漳浦县旧镇镇霞屿村南坂卫生室</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="156">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/157.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="157">
+                            <li>编号:209</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>陈水莲</span>
+                            </li>
+                            <li>漳浦县深土镇南境村东苏卫生室</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="157">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/158.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="158">
+                            <li>编号:210</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>张文生</span>
+                            </li>
+                            <li>南靖县山城镇汤坑村卫生所</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="158">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/159.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="159">
+                            <li>编号:211</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>肖金爱</span>
+                            </li>
+                            <li>南靖县船场镇西坑村卫生所</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="159">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+
+        <!--见义勇为候选人-->
+        <div class="vote-title">
+            <canvas class="canvas" data-title="见义勇为候选人"></canvas>
+        </div>
+        <div class="vote-list wsj-vote-list clearfix" id="vote2">
+            <ul class="clearfix">
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/148.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="211">
+                            <li>编号:201</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>陈伟琳</span>
+                            </li>
+                            <li>漳浦湖西乡后溪村卫生所</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="211">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/149.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="212">
+                            <li>编号:202</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>陈亚任</span>
+                            </li>
+                            <li>平和县芦溪镇漳汀村卫生所</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="212">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/151.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="213">
+                            <li>编号:203</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>卢民主</span>
+                            </li>
+                            <li>平和县霞寨镇高寨村</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="213">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/152.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="214">
+                            <li>编号:204</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>张江林</span>
+                            </li>
+                            <li>龙文区朝阳镇漳滨村</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="214">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/153.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="215">
+                            <li>编号:205</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>沈松斌</span>
+                            </li>
+                            <li>诏安县梅岭镇赤石湾村卫生所</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="215">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/154.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="216">
+                            <li>编号:206</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>张学周</span>
+                            </li>
+                            <li>诏安县官陂镇下官村卫生所</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="216">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/155.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="217">
+                            <li>编号:207</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>陈雷毅</span>
+                            </li>
+                            <li>东山县陈城镇陈城村卫生室</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="217">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/156.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="218">
+                            <li>编号:208</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>郑桂荣</span>
+                            </li>
+                            <li>漳浦县旧镇镇霞屿村南坂卫生室</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="218">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/157.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="219">
+                            <li>编号:209</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>陈水莲</span>
+                            </li>
+                            <li>漳浦县深土镇南境村东苏卫生室</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="219">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/158.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="220">
+                            <li>编号:210</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>张文生</span>
+                            </li>
+                            <li>南靖县山城镇汤坑村卫生所</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="220">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!--诚实守信候选人-->
+        <div class="vote-title">
+            <canvas class="canvas" data-title="诚实守信候选人"></canvas>
+        </div>
+        <div class="vote-list wsj-vote-list clearfix" id="vote3">
+            <ul class="clearfix">
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/148.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="311">
+                            <li>编号:201</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>陈伟琳</span>
+                            </li>
+                            <li>漳浦湖西乡后溪村卫生所</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="311">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/149.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="312">
+                            <li>编号:202</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>陈亚任</span>
+                            </li>
+                            <li>平和县芦溪镇漳汀村卫生所</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="312">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/151.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="313">
+                            <li>编号:203</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>卢民主</span>
+                            </li>
+                            <li>平和县霞寨镇高寨村</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="313">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/152.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="314">
+                            <li>编号:204</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>张江林</span>
+                            </li>
+                            <li>龙文区朝阳镇漳滨村</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="314">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/153.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="315">
+                            <li>编号:205</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>沈松斌</span>
+                            </li>
+                            <li>诏安县梅岭镇赤石湾村卫生所</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="315">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/154.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="316">
+                            <li>编号:206</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>张学周</span>
+                            </li>
+                            <li>诏安县官陂镇下官村卫生所</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="316">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/155.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="317">
+                            <li>编号:207</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>陈雷毅</span>
+                            </li>
+                            <li>东山县陈城镇陈城村卫生室</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="317">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/156.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="318">
+                            <li>编号:208</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>郑桂荣</span>
+                            </li>
+                            <li>漳浦县旧镇镇霞屿村南坂卫生室</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="318">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/157.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="319">
+                            <li>编号:209</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>陈水莲</span>
+                            </li>
+                            <li>漳浦县深土镇南境村东苏卫生室</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="319">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/158.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="320">
+                            <li>编号:210</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>张文生</span>
+                            </li>
+                            <li>南靖县山城镇汤坑村卫生所</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="320">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!--敬业奉献候选人-->
+        <div class="vote-title">
+            <canvas class="canvas" data-title="敬业奉献候选人"></canvas>
+        </div>
+        <div class="vote-list wsj-vote-list clearfix" id="vote4">
+            <ul class="clearfix">
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/148.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="411">
+                            <li>编号:201</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>陈伟琳</span>
+                            </li>
+                            <li>漳浦湖西乡后溪村卫生所</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="411">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/149.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="412">
+                            <li>编号:202</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>陈亚任</span>
+                            </li>
+                            <li>平和县芦溪镇漳汀村卫生所</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="412">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/151.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="413">
+                            <li>编号:203</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>卢民主</span>
+                            </li>
+                            <li>平和县霞寨镇高寨村</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="413">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/152.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="414">
+                            <li>编号:204</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>张江林</span>
+                            </li>
+                            <li>龙文区朝阳镇漳滨村</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="414">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/153.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="415">
+                            <li>编号:205</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>沈松斌</span>
+                            </li>
+                            <li>诏安县梅岭镇赤石湾村卫生所</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="415">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/154.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="416">
+                            <li>编号:206</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>张学周</span>
+                            </li>
+                            <li>诏安县官陂镇下官村卫生所</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="416">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/155.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="417">
+                            <li>编号:207</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>陈雷毅</span>
+                            </li>
+                            <li>东山县陈城镇陈城村卫生室</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="417">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/156.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="418">
+                            <li>编号:208</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>郑桂荣</span>
+                            </li>
+                            <li>漳浦县旧镇镇霞屿村南坂卫生室</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="418">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/157.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="419">
+                            <li>编号:209</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>陈水莲</span>
+                            </li>
+                            <li>漳浦县深土镇南境村东苏卫生室</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="419">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/158.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="420">
+                            <li>编号:210</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>张文生</span>
+                            </li>
+                            <li>南靖县山城镇汤坑村卫生所</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="420">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!--孝老爱亲候选人-->
+        <div class="vote-title">
+            <canvas class="canvas" data-title="孝老爱亲候选人"></canvas>
+        </div>
+        <div class="vote-list wsj-vote-list clearfix" id="vote5">
+            <ul class="clearfix">
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/148.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="511">
+                            <li>编号:201</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>陈伟琳</span>
+                            </li>
+                            <li>漳浦湖西乡后溪村卫生所</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="511">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/149.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="512">
+                            <li>编号:202</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>陈亚任</span>
+                            </li>
+                            <li>平和县芦溪镇漳汀村卫生所</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="512">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/151.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="513">
+                            <li>编号:203</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>卢民主</span>
+                            </li>
+                            <li>平和县霞寨镇高寨村</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="513">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/152.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="514">
+                            <li>编号:204</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>张江林</span>
+                            </li>
+                            <li>龙文区朝阳镇漳滨村</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="514">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/153.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="515">
+                            <li>编号:205</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>沈松斌</span>
+                            </li>
+                            <li>诏安县梅岭镇赤石湾村卫生所</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="515">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/154.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="516">
+                            <li>编号:206</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>张学周</span>
+                            </li>
+                            <li>诏安县官陂镇下官村卫生所</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="516">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/155.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="517">
+                            <li>编号:207</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>陈雷毅</span>
+                            </li>
+                            <li>东山县陈城镇陈城村卫生室</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="517">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/156.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="518">
+                            <li>编号:208</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>郑桂荣</span>
+                            </li>
+                            <li>漳浦县旧镇镇霞屿村南坂卫生室</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="518">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/157.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="519">
+                            <li>编号:209</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>陈水莲</span>
+                            </li>
+                            <li>漳浦县深土镇南境村东苏卫生室</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="519">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+                <li class="col-xs-4" data-body="body">
+                    <div class="picture">
+                        <a href="/activity/14/candidate/158.html">
+                            <img src="images/pic.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ol data-id="520">
+                            <li>编号:210</li>
+                            <li>票数:0</li>
+                            <li data-type="realname">姓名:
+                                <span>张文生</span>
+                            </li>
+                            <li>南靖县山城镇汤坑村卫生所</li>
+                        </ol>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="btn btn-danger btn-bgcolor" data-id="520">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 选择
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!--投票提交按钮，留言按钮 -->
+        <div class="container button-box text-center clearfix" id="ph">
+            <a class="btn btn-danger btn-bgcolor btn-lg" id="vote-submit">确认投票</a>
+        </div>
+        <!--投票提交按钮，留言按钮 END-->
+    </div>
+    <!--投票列表 END-->
+
+
+    <script src="default/js/jquery-1.11.3.min.js"></script>
+    <script src="layer/layer.js"></script>
+    <!--锚点，头部跟随-->
+    <script src="default/js/anchor.js"></script>
+    <!--jquery.cookie-->
+    <script src="./build/jquery.voteCookies.js"></script>
+
+    <script type="text/javascript">
+        /**
+         * 绘制投票头部标题canvas文字
+         * @param {*} selector    传入的元素
+         */
+        var CanvasTitle = function (el, options) {
+            this.opts = $.extend({}, CanvasTitle.DEFAULTS, options);
+            el.width = document.body.clientWidth / opts.widthRatio;
+            el.height = opts.height;
+            el.style.letterSpacing = opts.letterSpacing;
+            var ctx = el.getContext("2d");
+            var text = $(el).attr(opts.dataName);
+            ctx.font = opts.fontWeigth + opts.fontSize + "/" + opts.fontSize + " 微软雅黑,arial,sans-serif";
+            var lg = ctx.createLinearGradient(0, 0, 0, 14);
+            for (var i = 0; i < opts.colorRatio.length; i++) {
+                lg.addColorStop(opts.colorRatio[i].radio, opts.colorRatio[i].color);
+            }
+            ctx.fillStyle = lg;
+            ctx.lineWidth = 5;
+            ctx.shadowColor = "#000";
+            ctx.shadowBlur = -5;
+            ctx.shadowOffsetX = -1;
+            ctx.shadowOffsetY = 1;
+            ctx.textAlign = "center";
+            ctx.fillText(text, el.width / 2, opts.canvasY);
+        };
+
+        // CanvasTitle的默认属性
+        CanvasTitle.DEFAULTS = {
+            widthRatio: 1, // 传入宽度比例
+            height: 14, // 传入高度
+            letterSpacing: 0, // 传入的文字间距
+            dataName: 'data-content', // 传入绘制文本的内容所在属性
+            fontWeigth: 'normal ', // 传入的字体粗细（注：这个要加一个空格哦）
+            fontSize: '14px', // 传入的字体大小
+            // 传入的渐变颜色比例
+            colorRatio: [{
+                    radio: 0,
+                    color: '#fff'
+                }, {
+                    radio: 0.3,
+                    color: '#f7ec16'
+                }, {
+                    radio: 0.7,
+                    color: '#f7ec16'
+                },
+                {
+                    radio: 1,
+                    color: '#f7ec16'
+                }
+            ],
+            canvasY: 12 // 传入的开始绘制文本的 y 坐标位置
+        };
+
+
+        $(function () {
+            function canvasInit() {
+                // 投票头部标题
+                if ($(window).width() <= 320) {
+                    $(".header-title canvas.title").each(function () {
+                        var options = {
+                            widthRatio: 5,
+                            colorRatio: [{
+                                    radio: 0,
+                                    color: '#fff'
+                                }, {
+                                    radio: 0.6,
+                                    color: '#f7ec16'
+                                }, {
+                                    radio: 0.7,
+                                    color: '#f7ec16'
+                                },
+                                {
+                                    radio: 1,
+                                    color: '#f7ec16'
+                                }
+                            ]
+                        };
+                        CanvasTitle(this, options);
+                    });
+                } else {
+                    $(".header-title canvas.title").each(function () {
+                        var options = {
+                            widthRatio: 5,
+                            height: 24,
+                            fontSize: '16px',
+                            colorRatio: [{
+                                    radio: 0,
+                                    color: '#fff'
+                                }, {
+                                    radio: 0.3,
+                                    color: '#ffebd3'
+                                }, {
+                                    radio: 0.7,
+                                    color: '#f7ec16'
+                                },
+                                {
+                                    radio: 1,
+                                    color: '#f7ec16'
+                                }
+                            ],
+                            canvasY: 14
+                        };
+                        CanvasTitle(this, options);
+                    });
+                }
+                // 投票分类大标题
+                $(".vote-title canvas.canvas").each(function () {
+                    var options = {
+                        height: 28,
+                        fontSize: '22px',
+                        letterSpacing: '5px',
+                        dataName: 'data-title',
+                        fontWeigth: 'bold ',
+                        colorRatio: [{
+                                radio: 0,
+                                color: '#fff'
+                            }, {
+                                radio: 0.2,
+                                color: '#fff'
+                            }, {
+                                radio: 0.4,
+                                color: '#fdc20e'
+                            }, {
+                                radio: 0.7,
+                                color: '#fd990d'
+                            },
+                            {
+                                radio: 1,
+                                color: '#ff0029'
+                            }
+                        ],
+                        canvasY: 20
+                    };
+                    CanvasTitle(this, options);
+                });
+
+                // 投票结果大标题
+                $(".ranking-title canvas.title").each(function () {
+                    var options = {
+                        height: 28,
+                        fontSize: '20px',
+                        letterSpacing: '5px',
+                        fontWeigth: 'bold ',
+                        colorRatio: [{
+                                radio: 0,
+                                color: '#fff'
+                            }, {
+                                radio: 0.3,
+                                color: '#fff'
+                            }, {
+                                radio: 0.4,
+                                color: '#fff467'
+                            }, {
+                                radio: 0.7,
+                                color: '#fdea07'
+                            },
+                            {
+                                radio: 1,
+                                color: '#fde73c'
+                            }
+                        ],
+                        canvasY: 18
+                    };
+                    CanvasTitle(this, options);
+                });
+            }
+            canvasInit();
+
+            $(window).on('resize', canvasInit);
+
+
+        });
+
+
+        $(function () {
+            var maxNum = 9, // 设置最大值
+                minNum = 5; // 设置最小值
+
+            var voteCookies = window.voteCookies;
+
+            /**
+             * 初始化cookie，显示选中，点击选择事件
+             * @param {*} cookieName cookie名称
+             * @param {*} voteBtnSelectorAll  同类选中按钮的selectorAll
+             * @param {*} showNumSelector 显示选中数量的selector
+             * @param {*} maxNum 设置最大值
+             * @param {*} minNum 设置最小值
+             */
+            function cookieInit(cookieName, voteBtnSelectorAll, showNumSelector,  maxNum, minNum) {
+                var clickAndSelectBtns = document.querySelectorAll(voteBtnSelectorAll),   // 获取投票按钮的DOM
+                    showNumText = document.querySelector(showNumSelector),                // 获取显示投票数量的DOM
+                    attrName = 'data-id',                                                 // 投票选中时获取存入cookie值的属性名称
+                    selectedShowHtml = '<span class="glyphicon glyphicon-ok"></span>',     // 按钮显示的html
+                    showHtml = '<span class="glyphicon glyphicon-thumbs-up"></span> 投票'; // 选中后按钮显示的html
+
+                // 获取cookie并将其分割成数组
+                var showNumArr = voteCookies().splitCookies(voteCookies().getCookies(cookieName));
+                // 根据cookie显示选中的按钮与数量
+                voteCookies().showNum(cookieName, clickAndSelectBtns, clickAndSelectBtns, showNumText, attrName, selectedShowHtml);
+
+                // 点击按钮时选中或都去除选中按钮，并修改按钮样式，与显示数量
+                for (var i = 0; i < clickAndSelectBtns.length; i++) {
+                    (function (i) {
+                        clickAndSelectBtns[i].onclick = function () {
+                            voteCookies().clickBtnSelect(attrName, clickAndSelectBtns[i], showNumText, showNumArr, maxNum, minNum, cookieName, showHtml, selectedShowHtml);
+                        }
+                    })(i);
+                }
+                return showNumArr;
+            };
+
+            // 第一个投票类别
+            var voteArr1 = cookieInit('voteTest1', '#vote1 li .btn-box a.btn', '#num1 span', maxNum, minNum);
+            // 第二个投票类别
+            var voteArr2 = cookieInit('voteTest2', '#vote2 li .btn-box a.btn', '#num2 span', maxNum, minNum);
+            // 第三个投票类别
+            var voteArr3 = cookieInit('voteTest3', '#vote3 li .btn-box a.btn', '#num3 span', maxNum, minNum);
+            // 第四个投票类别
+            var voteArr4 = cookieInit('voteTest4', '#vote4 li .btn-box a.btn', '#num4 span', maxNum, minNum);
+            // 第五个投票类别
+            var voteArr5 = cookieInit('voteTest5', '#vote5 li .btn-box a.btn', '#num5 span', maxNum, minNum);
+
+
+
+            // 判断每组投票数量是否在最大值与最小值范围	
+            function check() {
+                function doCheck(arr, maxNum, minNum) {
+                    var len = arr.length,
+                        maxNum = maxNum,
+                        minNum = minNum;
+                    return len >= minNum && len <= maxNum;
+                }
+                return doCheck(voteArr1, maxNum, minNum) && doCheck(voteArr2, maxNum, minNum) &&
+                    doCheck(voteArr3, maxNum, minNum) && doCheck(voteArr4, maxNum, minNum) &&
+                    doCheck(voteArr5, maxNum, minNum);
+            }
+
+            // 获取被投票人名字
+            function getName(selector, arr) {
+                var selector = selector,
+                    arr = arr,
+                    len = arr.length,
+                    tName = "";
+                for (var i = 0; i < len; i++) {
+                    tName += $(selector + " li .btn-box [data-id='" + arr[i] + "']").parent().siblings(
+                        ".content").find("li[data-type='realname']").text().substr(3) + " ";
+                }
+                return tName;
+            }
+
+
+
+
+            // 点击大投票按钮提交数据
+            $("#vote-submit").on('click', function () {
+
+                // 判断每组投票数量是否在最大值与最小值范围
+                if (!check()) {
+
+                    layer.alert('投票数量：<br/>' + '助人为乐：最小数量：' + minNum + " 最大数量：" + maxNum +
+                        '<br/>' + '见义勇为：最小数量：' + minNum + " 最大数量：" + maxNum + '<br/>' +
+                        '诚实守信：最小数量：' + minNum + " 最大数量：" + maxNum + '<br/>' + '敬业奉献：最小数量：' +
+                        minNum + " 最大数量：" + maxNum + '<br/>' + '孝老爱亲：最小数量：' + minNum +
+                        " 最大数量：" + maxNum + '<br/>', {
+                            title: "投票数量",
+                            icon: 3
+                        });
+                } else {
+                    layer.confirm("助人为乐投票：" + getName("#vote1", voteArr1) + "<br/>见义勇为投票：" + getName(
+                            "#vote2", voteArr2) + "<br/>诚实守信投票：" + getName("#vote3", voteArr3) +
+                        "<br/>敬业奉献投票：" + getName("#vote4", voteArr4) + "<br/>孝老爱亲投票：" + getName(
+                            "#vote5", voteArr5), {
+                            title: "投票详情"
+                        });
+                    console.log(voteArr1);
+                    console.log(voteArr2);
+                    console.log(voteArr3);
+                    console.log(voteArr4);
+                    console.log(voteArr5);
+                    console.log("============================================");
+                }
+            });
+
+            var ids = ["#vote1", "#vote2", "#vote3", "#vote4", "#vote5"];
+            // 滚动条滚动赋值
+            $.initAnchor(ids);
+
+        });
+    </script>
+
+</body>
+
+</html>
