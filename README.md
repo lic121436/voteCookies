@@ -50,6 +50,7 @@ __voteCookies().clickBtnSelect(attrName, clickSelector, showNumSelector, showNum
 
 # 本DOM示例
 var maxNum = 9, // 设置最大值
+
      minNum = 5; // 设置最小值
      
 var voteCookies = window.voteCookies;
