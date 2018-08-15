@@ -1,0 +1,171 @@
+@import './px2rem.scss';
+@import './reset.scss';
+$designWidth: 640;
+@mixin flex($direction:colum, $inline:block) {
+    display: if($inline==block, flex, inline-flex);
+    flex-direction: $direction;
+    flex-wrap: wrap;
+}
+
+@mixin btn($size:14px, $color:#fff, $bgcolor:#f04752, $padding:5px, $radius:5px) {
+    display: inline-block;
+    padding: $padding;
+    font-size: $size;
+    line-height: 1;
+    color: $color;
+    text-align: center;
+    background-color: $bgcolor;
+    border-radius: $radius;
+    border: 1px solid $bgcolor;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background: #f3bc7c;
+}
+
+.header-box {
+    text-align: center;
+    img {
+        display:inline-block;
+        height: px2rem(304);
+        margin-bottom: -4px;
+    }
+}
+
+.vote-wrapper {
+    z-index: 100;
+    position: relative;
+    .vote-title {
+        @include flex(row);
+        justify-content: space-around;
+        background-color: #cd0000;
+        .item {
+            width: calc(100% / 5);
+            text-align: center;
+            a {
+                display: block;
+                position: relative;
+                min-height: px2rem(60);
+                padding: px2rem(6) 0;
+                text-align: center;
+                &.active {
+                    background-color: rgba(107, 3, 3, 0.5);
+                }
+            }
+        }
+    }
+    .vote-num {
+        z-index: 100;
+        @include flex(row);
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        height: px2rem(60);
+        margin: 0 auto;
+        padding: px2rem(16) 0;
+        color: #e80005;
+        line-height: px2rem(60);
+        font-weight: bold;
+        text-align: center;
+        border-radius: 3px;
+        .item {
+            width: calc(100% / 5);
+            height: px2rem(60);
+            line-height: px2rem(60);
+            font-size: px2rem(24);
+            font-weight: bold;
+            letter-spacing: px2rem(3);
+            background-color: #fff;
+            border-right: 1px solid #e80005;
+            &:last-child {
+                border-right: none;
+            }
+        }
+    }
+}
+
+.vote-list {
+    .list-title {
+        margin-top: px2rem(50);
+    }
+    .list-content {
+        @include flex(row);
+        justify-content: flex-start;
+        padding: 0 px2rem(5);
+        .item {
+            width: calc(100% / 3 - 1%);
+            margin: px2rem(40) .5% auto .5%;
+            border: px2rem(4) solid #f9ca4f;
+            .picture {
+                img {
+                    display: block;
+                    width: 100%;
+                    height: px2rem(240);
+                }
+            }
+            .content {
+                li {
+                    padding: px2rem(6) px2rem(4) 0 px2rem(4);
+                    line-height: px2rem(36);
+                    font-size: px2rem(24);
+                    color: #fff;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    border: none;
+                    &:last-child {
+                        text-overflow: inherit;
+                        white-space: normal;
+                    }
+                }
+            }
+            .btn-box {
+                margin: px2rem(20) 0;
+                text-align: center;
+                .btn {
+                    @include btn($size: px2rem(24), $bgcolor:#f00, $padding:px2rem(10), $radius:px2rem(6));
+                    text-decoration: none;
+                    width: px2rem(120);
+                    height: px2rem(60);
+                    line-height: px2rem(40);
+                    font-weight: bold;
+                    letter-spacing: px2rem(5);
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+.vote-button-box {
+    width: 100%;
+    margin: px2rem(40) 0;
+    text-align: center;
+    .btn {
+        @include btn($size: px2rem(32), $bgcolor:#f00, $padding:px2rem(10), $radius:px2rem(8));
+        text-decoration: none;
+        width: px2rem(300);
+        height: px2rem(88);
+        line-height: px2rem(68);
+        font-weight: bold;
+        letter-spacing: px2rem(5);
+        cursor: pointer;
+    }
+}
+
+// 
+.layui-layer-btn {
+    a{
+        &.layui-layer-btn0,&.layui-layer-btn1,&.layui-layer-btn2,&.layui-layer-btn3,&.layui-layer-btn4 {
+        height: px2rem(56);
+        line-height: px2rem(56);
+        font-size: px2rem(28);
+    }
+}
+}
