@@ -1,0 +1,429 @@
+{
+  "list": [
+    {
+      "title": "助人为乐候选人",
+      "content": [
+        {
+          "id": 1,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 2,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 3,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 4,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 5,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 6,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 7,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 8,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 9,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 10,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        }
+      ]
+    },
+    {
+      "title": "见义勇为候选人",
+      "content": [
+        {
+          "id": 21,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 22,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 23,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 24,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 25,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 26,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 27,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 28,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 29,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 210,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        }
+      ]
+    },
+    {
+      "title": "诚实守信候选人",
+      "content": [
+        {
+          "id": 31,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 32,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 33,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 34,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 35,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 36,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 37,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 38,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 39,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 310,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        }
+      ]
+    },
+    {
+      "title": "敬业奉献候选人",
+      "content": [
+        {
+          "id": 41,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 42,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 43,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 44,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 45,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 46,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 47,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 48,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 49,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 410,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        }
+      ]
+    },
+    {
+      "title": "孝老爱亲候选人",
+      "content": [
+        {
+          "id": 51,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 52,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 53,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 54,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 55,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 56,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 57,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 58,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 59,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        },
+        {
+          "id": 510,
+          "src": "./src/images/pic.jpg",
+          "num": 201,
+          "ticket": 0,
+          "name": "陈伟琳",
+          "address": "漳浦湖西乡后溪村卫生所"
+        }
+      ]
+    }
+  ]
+}
