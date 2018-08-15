@@ -1,7 +1,14 @@
 {
     "name": "vote-cookies",
-    "version": "0.0.1",
+    "version": "0.1.1",
+    "main": "webpack.config.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "lic121436",
+    "license": "ISC",
+    "description": "",
     "devDependencies": {
-        "webpack": "^1.12.11"
+      "webpack": "^1.12.11"
     }
-}
+  }
